@@ -1,8 +1,30 @@
-header{
-    background-color:rgb(240, 78, 167);
-    color:#93e5f0
+*{
+    margin:0;
+    padding:0;
 }
 
-.cabecalhoImagem {
-    Width:20%;
+.cabecalho{
+    background-color:#f443f7;
+    color:#93e5f0;
+    display:flex;
+    justify-content:space-around;
+    padding:2px 0;
+    font-size:24px;
+}
+
+.cabecalhoImagem{
+    Width:10%;
+}
+.cabecalhoListaItem{
+    display: inline-block;
+    margin:0 16px;
+    padding:24px 0;
+}
+.sobreImagem{
+     Width: 45%
+}
+.sobre{
+    background-image:linear-gradient(#f66ef8 , #4EBFE9);
+    color:#ffffff;
+    display:flex;
 }
