@@ -4,17 +4,38 @@
 }
 
 .cabecalho{
-    background-color:rgb(224, 72, 161);
-    color:#93e5f0;
+    background-color:#ff7ff9;
+    color:#FFFFFF;
     display:flex;
     justify-content:space-around;
+    padding:2px 0;
+    font-size:18px;
 }
 
 .cabecalhoImagem{
-    Width:20%;
+    Width:10%;
 }
 .cabecalhoListaItem{
     display: inline-block;
-    margin:0 16px;
+    margin:0 20px;
     padding:24px 0;
+}
+.sobreImagem{
+     Width:48%
+}
+.sobre{
+    background-image:linear-gradient(#FA3EC6, #4EBFE9);
+    color:#ffffff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:24px;
+}
+.sobreConteudo{
+    Width:40%;
+    padding: 0 150px 0 0;
+}
+
+.letraParagrafo{
+    font-size: 20px;
 }
