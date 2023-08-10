@@ -48,8 +48,13 @@
 }
 .membroDiv{
     text-align:center;
+    padding-bottom: 75%;
 }
 .membrosTitulo{
     text-align:center;
-    padding:50px 0;
+    padding:50px ;
+}
+.membrosTodos{
+    display:grid;
+    grid-template-columns:10% 20% 20% 20% 20%;
 }
