@@ -58,3 +58,15 @@
     display:grid;
     grid-template-columns:10% 20% 20% 20% 20%;
 }
+
+.rodape{
+    width: 100vw;
+    background-color:#FA3EC6;
+    display: flex;
+    padding:15px 0;
+    text-align: center;
+}
+
+.instaRodape{
+    width:10%;
+}
